@@ -1,0 +1,417 @@
+
+#encabezado-wrapper {
+	background: url(images/descarga.png) no-repeat center top;
+	width: 80%;
+}
+
+
+
+
+
+#logo {
+
+	background-color: white;
+	overflow: hidden;
+	padding: 30px 0px 30px 0px;
+		box-shadow: 2px 15px 1px 15px  lightblue inset;
+	width: 70%;
+
+}
+
+#logo h1 {
+	padding: 0px 10px 10px 30px ;
+	margin: 3%;
+	width: 115%;
+	display: block;
+	letter-spacing: -1px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: -1px -1px 0px #AC531B;
+	text-transform: lowercase;
+	font-family: 'Allura', cursive;
+	font-size: 50pt;
+	font-weight: 200;
+	color: black;
+	float: center;
+
+
+}
+
+
+#cabecera{
+	overflow: hidden;
+	float: left;
+}
+
+
+
+
+/* Menu */
+
+#seccion3 {
+	box-shadow: 2px 15px 1px 7px  lightblue inset;
+	width: 70%;
+	height: 100%;
+	overflow: hidden;
+	padding: 0px 0px;
+	background: white;
+
+}
+
+
+#menu {
+	margin-top: 0px;
+	height:75px;
+	
+}
+#menu ul :hover{
+	background-color: #909AB6;
+	color:black;
+
+}
+
+#menu ul {
+	text-align: center;
+}
+
+#menu li {
+
+	display: inline-block;
+	padding: 0px 20px;
+	line-height: 60px;
+	
+
+}
+
+#menu a {
+	display: block;
+	float: left;
+	margin-right: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Abel', sans-serif;
+	font-size: 13pt;
+	color: black;
+
+
+}
+
+
+
+#menu .current_page_item a {
+	color: #FFFFFF;
+}
+
+
+/* Page Wrapper */
+
+#seccion2 {
+
+	width: 70%;
+	overflow: hidden;
+	padding: 10px 0px;
+	background: white;
+	box-shadow: 3px 3px 1px 18px  lightblue inset;
+
+}
+#seccion12{
+	float: right;
+	box-shadow: 2px 4px 1px 15px  lightblue inset;
+	width: 23%;
+	margin-right: 188px;
+	padding: 0px 0px 0px 0px;
+	background: white;
+	height: 750px;
+}
+#seccion13{
+	float: right;
+	padding: 20% 20% 20% 20%;
+	box-shadow: 2px 4px 1px 15px  lightblue inset;
+	width: 47%;
+	height: 750px;
+	padding: 0px 0px;
+	background: white;
+}
+
+#content12 h2 {
+	width: 65%;
+	float: right;
+	padding: 10px 0px 10px 0px;
+	letter-spacing: -2px;
+	text-transform: uppercase;
+	font-size: 35pt;
+	color: black;
+}
+#content12 p{
+	width: 80%;
+	float: right;
+	padding: 0px 0px 0px 0px;
+	letter-spacing: 0px;
+	display: block;
+	text-transform: uppercase;
+	font-size: 13pt;
+	color: black;
+}
+#content12 p a  {
+	float: center;
+	width: 50%;
+}
+#content12 img{
+	border: 12px;
+	margin: 12px;
+	border-color: black;
+}
+#seccion15{
+	float: center;
+	padding: 20% 20% 20% 20%;
+	box-shadow: 2px 4px 1px 15px  lightblue inset;
+	width: 70%;
+	height: 110%;
+	padding: 0px 0px;
+	background: white;
+}
+#content15 p{
+	width: 90%;
+	float: right;
+	padding: 0px 0px 0px 0px;
+	letter-spacing: 0px;
+	display: inline;
+	
+	font-size: 13pt;
+	color: black;
+}
+#content15 h2 {
+	width: 50%;
+	float: right;
+	padding: 10px 0px 10px 0px;
+	letter-spacing: -2px;
+	text-transform: uppercase;
+	font-size: 35pt;
+	color: black;
+}
+
+#seccion4{
+	width: 70%;
+	overflow: hidden;
+	padding: 10px 0px;
+	background: white;
+
+}
+/*seccion10*/
+#seccion10{
+	width: 70%;
+	overflow: hidden;
+	padding: 0px 0px;
+	background: white;
+	box-shadow: 3px 3px 1px 18px  lightblue inset;
+}
+#content10 h2 {
+	width: 40%;
+	float: right;
+	padding: 10px 0px 10px 0px;
+	letter-spacing: -2px;
+	text-transform: uppercase;
+	font-size: 35pt;
+	color: black;
+}
+
+
+#content10 p{
+	width: 75%;
+	float: right;
+	padding: 0px 0px 0px 0px;
+	letter-spacing: 0px;
+	display: block;
+	text-transform: uppercase;
+	font-size: 13pt;
+	color: black;
+}
+#content10 p a  {
+	float: right;
+	width: 70%;
+}
+#content10 img{
+	border: 12px;
+	margin: 12px;
+	border-color: black;
+}
+
+#slider li{
+
+  width: 100%;
+}
+
+#links img {
+width: 60px;
+}
+/* Banner */
+
+#banner {
+	overflow: hidden;
+	padding: 0px 30px 30px 30px;
+}
+
+#banner a img {
+	display: block;
+	width: 100%;
+}
+
+/* Content */
+
+#content ul{
+
+	padding: 10px 0px 0px 150px;
+}
+#content15 ul{
+
+	padding: 10px 0px 0px 150px;
+}
+#content {
+	padding: 0px 0px 0px 30px;
+}
+
+.Deportes #content {
+	padding: 0px 30px 0px 0px;
+}
+
+.primeraColumna #content {
+	padding: 0px 30px;
+}
+
+#content section {
+	margin-bottom: 30px;
+	border-bottom: 1px solid #E6E6E6;
+}
+
+#content section:last-child {
+	border-bottom: 0;
+}
+
+.onecolumn #content section {
+	border-bottom: none;
+}
+
+#content h2 {
+	width: 60%;
+	float: right;
+	padding: 10px 0px 10px 0px;
+	letter-spacing: -2px;
+	text-transform: uppercase;
+	font-size: 35pt;
+	color: blue;
+}
+#content h1 {
+	width: 65%;
+	float: right;
+	padding: 0px 0px 0px 0px;
+	letter-spacing: -2px;
+	text-transform: uppercase;
+	font-size: 20pt;
+	color: red;
+}
+
+#content p{
+	width: 75%;
+	float: right;
+	padding: 0px 0px 0px 0px;
+	letter-spacing: 0px;
+	display: block;
+	text-transform: uppercase;
+	font-size: 13pt;
+	color: red;
+}
+#content p a {
+	float: right;
+	width: 80%;
+}
+
+
+#content3 a img{
+	
+padding: 00px 0px 0px 150px;
+}
+
+
+#content .post {
+	padding: 0px 0px 40px 0px;
+}
+
+#content .img-alignleft {
+	float: left;
+	margin-right: 40px;
+}
+
+
+#content2 a img{
+padding: 30px 29px 0px 20px;
+}
+
+#content2 h2 {
+	width: 60%;
+	float: right;
+	padding: 10px 0px 10px 0px;
+	letter-spacing: -2px;
+	text-transform: uppercase;
+	font-size: 35pt;
+	color: blue;
+}
+
+/* barraLateral */
+
+#barraLateral {
+	background-image: url("images/azul.png");
+	float: center;
+	width: 70%;
+	padding: 0px 100px;
+	background: #FFFFFF;
+	box-shadow: 11px 8.5px 1px 9px  lightblue inset;
+	
+}
+
+#barraLateral h2 {
+	
+	background: url(images/img06.png) no-repeat right top;
+	margin-bottom: 20px;
+	padding: 0px 0px 0px 0px;
+	line-height: 50px;
+	text-transform: uppercase;
+	font-size: 20pt;
+	color: #FFFFFF;
+	width: 175%;
+}
+
+#barraLateral .cuadro1 {
+	margin-bottom: 100px;
+}
+
+
+#barraLateral .cuadro2 {
+	margin-bottom: 50px;
+}
+
+#seccion3{
+	padding: 0px 0px 0px 0px;
+}
+
+/*                    */
+
+
+
+#piePagina .imgleft {
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 30px;
+	border: 5px solid #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+

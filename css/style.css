@@ -1,0 +1,331 @@
+@import url(http://fonts.googleapis.com/css?family=Abel|Allura);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300);
+
+
+html, body {
+	height: 100%;
+}
+
+
+body {
+	margin: 50px;
+	padding: 0px;
+	background: #C55300 url(images/mdf-trancoso-design.png) repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #8A8A8A;
+
+}
+
+h1, h2, h3 {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+}
+
+p {
+	line-height: 180%;
+}
+
+a {
+	color: #D1551F;
+}
+
+strong {
+	font-weight: 700;
+	color: #2A2A2A;
+}
+
+.slider{
+	overflow: hidden;
+	width: 700px;
+	height: 400px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	overflow-wrap: hidden;
+
+}
+.slider ul{
+	width: 600%;
+	height: 800px;
+	display: flex;
+	list-style: none;
+	order: 1;
+	margin-left: -100%;
+	transition: all 0.95;
+	animation: slider 20s infinite;
+}
+.slider li{
+	width: 700px;
+	list-style: none;
+}
+
+
+input[type="radio"]{
+	display: none;
+}
+input[type="radio"] + label {
+display: block;
+width: 25%;
+height: 100px;
+background: red;
+cursor: pointer;
+order: 1;
+position: left;
+}
+
+
+
+#sbutton1 + label {
+	background: url("fotos/1.jpg");
+	background-size: 100% 100%;
+}
+#sbutton2 + label {
+	background: url("fotos/2.jpg");
+	background-size: 100% 100%;
+}
+#sbutton3 + label {
+	background: url("fotos/3.jpg");
+	background-size: 100% 100%;
+}
+#sbutton4 + label {
+	background: url("fotos/4.jpg");
+	background-size: 100% 100%;
+}
+
+	#sbutton1:checked ~ ul {
+		margin-left: 0%;
+		animation: none;
+
+	}
+	#sbutton2:checked ~ ul {
+		margin-left: -100%;
+		animation: none;
+	}
+	#sbutton3:checked ~ ul {
+		margin-left: -200%;
+		animation: none;
+	}
+	#sbutton4:checked ~ ul {
+		margin-left: -300%;
+		animation: none;
+	}
+	@keyframes slider{
+		0%, 20%{
+			margin-left: 0;
+		}
+		25%, 40%{
+			margin-left: -100%;
+		}
+		45%, 70%{
+			margin-left: -200%;
+		}
+		775%, 100%{
+			margin-left: -300%;
+		}
+	}
+
+
+/* Button Style */
+
+.button-style a {
+	display: block;
+	width: 174px;
+	height: 50px;
+	margin-top: 30px;
+	background: url(images/img06.png) repeat;
+	border-radius: 10px;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 14pt;
+	font-weight: 200;
+	color: #FFFFFF;
+}
+
+
+
+
+
+/** LIST STYLE 1 */
+
+ul.estilo1 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul.estilo1 li {
+	padding: 15px 0px 15px 0px;
+	border-bottom: 1px solid #E6E6E6;
+}
+
+ul.estilo1 li:last-child {
+	border-bottom: 0;
+}
+
+ul.estilo1 a {
+	margin: 60%;
+	display: block;
+	padding: 20px 0px 0px 30px;
+	background: url(images/img03.png) no-repeat left top;
+	text-decoration: none;
+	color: #525252;
+}
+
+ul.estilo1 a:hover {
+	text-decoration: underline;
+}
+
+/*
+
+ul.estilo2 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul.estilo2 li {
+	padding: 0px 0px 40px 0px;
+}
+
+ul.estilo2 a {
+	text-decoration: none;
+	color: #525252;
+}
+
+ul.estilo2 a:hover {
+	text-decoration: underline;
+}
+
+ul.estilo2 .date {
+	display: inline-block;
+	margin: 0px 0px 25px 0px;
+	padding: 5px 10px;
+	background: url(images/img01.png) repeat;
+	letter-spacing: 1px;
+	line-height: none;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 200;
+	color: #FFFFFF;
+}
+
+ul.estilo2 .date a {
+	color: #FFFFFF;
+}
+
+
+ul.estilo3 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul.estilo3 li {
+	padding: 20px 0px 25px 0px;
+}
+
+ul.estilo3 a {
+	display: block;
+	text-decoration: none;
+	color: #C18062;
+}
+
+ul.estilo3 a:hover {
+	text-decoration: underline;
+}
+
+ul.estilo3 .date {
+	float: left;
+	width: 80px;
+	height: 78px;
+	margin: 0px 25px 0px 0px;
+	padding: 10px 0px 0px 0px;
+	background: #D34C0D;
+	line-height: normal;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Abel', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+ul.estilo3 .date b {
+	display: block;
+	margin: 0px 0px 0px 0px;
+	padding: 0;
+	letter-spacing: -1px;
+	font-size: 40px;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+
+ul.estilo3 .date a {
+	color: #FFFFFF;
+}
+
+ul.estilo3 .date a:hover {
+	text-decoration: none;
+}
+
+ul.estilo3 .first {
+	padding-top: 0px;
+	background: none;
+}
+
+*/
+
+
+
+#cuadro2 h2{
+width: 200%;
+color:black;
+}
+
+#estilo4 ul {
+	
+	margin: 0px;
+	padding: 0px 0px 0px 0px ;
+	list-style: none;
+}
+
+
+ul.estilo4 li {
+	width: 160%;
+	
+	text-shadow: 1px 1px 0px rgba(0,0,0, .3);
+	border-top: solid 1px #AC6035;
+	display: flex;
+	padding: 0px 0px 0px 30px;
+	background: url(images/img09.png) no-repeat left 5px;
+	line-height: 160%;
+	text-decoration: none;
+	color: blue;
+	text-transform: uppercase;
+	font-size: 15pt;
+}
+
+ul.estilo4 li:first-child {
+	border-top: 80px;
+
+}
+
+
+
+ul.estilo4 a:hover {
+	text-decoration: underline;
+	background-color: black;
+}
+
+ul.estilo4 .first {
+	background: none;
+	padding-top: 0px;
+}
+
+
